@@ -29,7 +29,7 @@ Rectangle {
 
         onClicked: {
             Quickshell.execDetached([
-                "/home/fred/.config/hypr/wallpaper-picker.sh"
+                "/home/fred/.config/hypr/wallpaper"
             ])
         }
     }

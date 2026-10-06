@@ -34,6 +34,14 @@ Rectangle {
                 color: hover.hovered ? (modelData.active ? "#ffbd93" : "#6e738d") : (modelData.active ? "#f5a97f" : "#363a4f")
                 border.color: hover.hovered ? "#b7bdf8" : (modelData.active ? "#5b6078" : "#494d64")
 
+                Text {
+                    anchors.centerIn: parent
+                    text: modelData.id
+                    color: modelData.active ? "#24273a" : "#cad3f5"
+                    font.pixelSize: 10
+                    font.bold: true
+                }
+
                 MouseArea {
                     anchors.fill: parent
 
